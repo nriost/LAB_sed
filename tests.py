@@ -16,7 +16,7 @@ expected = r"""2013-03-12,A,1,100.0
 )
 
 
-if os.system("bash question.sh data.csv > output1.csv") != 0:
+if os.system("bash question.sh data.csv > output.csv") != 0:
     raise Exception
 
 
